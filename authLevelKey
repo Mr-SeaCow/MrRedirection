@@ -1,0 +1,5 @@
+Everyone = 1
+Admin Priv = 2
+Guild Owner = 3
+Owner = 4
+Bot = 5

@@ -1,0 +1,227 @@
+{
+    "lifetime": {
+        "left": [
+            {
+                "title": "Kills",
+                "type": "Number",
+                "search": {
+                    "one": "total_kills"
+                },
+                "format": "comma"
+            },
+            {
+                "title": "Accuracy",
+                "type": "Divide",
+                "search": {
+                    "one": "total_shots_hit",
+                    "two": "total_shots_fired"
+                },
+                "format": "percentage"
+            },
+            {
+                "title": "Headshot",
+                "type": "Divide",
+                "search": {
+                    "one": "total_kills_headshot",
+                    "two": "total_kills"
+                },
+                "format": "percentage"
+            },
+            {
+                "title": "Bombs Planted",
+                "type": "Number",
+                "search": {
+                    "one": "total_planted_bombs"
+                },
+                "format": "comma"
+            }
+        ],
+        "right": [
+            {
+                "title": "K/D",
+                "type": "Divide",
+                "search": {
+                    "one": "total_kills",
+                    "two": "total_deaths"
+                },
+                "format": "decimal"
+            },
+            {
+                "title": "Wins",
+                "type": "Divide",
+                "search": {
+                    "one": "total_wins",
+                    "two": "total_rounds_played"
+                },
+                "format": "percentage"
+            },
+            {
+                "title": "MVPs",
+                "type": "Number",
+                "search": {
+                    "one": "total_mvps"
+                },
+                "format": "comma"
+            },
+            {
+                "title": "Bombs Defused",
+                "type": "Number",
+                "search": {
+                    "one": "total_defused_bombs"
+                },
+                "format": "comma"
+            }
+        ]
+    },
+    "weapons": {
+        "rifle": [
+            {
+                "weapon": "ak47"
+            },
+            {
+                "weapon": "m4a1"
+            },
+            {
+                "weapon": "awp"
+            },
+            {
+                "weapon": "ssg08"
+            },
+            {
+                "weapon": "sg556"
+            },
+            {
+                "weapon": "aug"
+            },
+            {
+                "weapon": "famas"
+            },
+            {
+                "weapon": "galilar"
+            },
+            {
+                "weapon": "g3sg1"
+            },
+            {
+                "weapon": "scar20"
+            }
+        ],
+        "heavy": [
+            {
+                "weapon": "nova"
+            },
+            {
+                "weapon": "xm1014"
+            },
+            {
+                "weapon": "sawedoff"
+            },
+            {
+                "weapon": "mag7"
+            },
+            {
+                "weapon": "m249"
+            },
+            {
+                "weapon": "negev"
+            }
+        ],
+        "SMG": [
+            {
+                "weapon": "mac10"
+            },
+            {
+                "weapon": "mp9"
+            },
+            {
+                "weapon": "mp7"
+            },
+            {
+                "weapon": "ump45"
+            },
+            {
+                "weapon": "p90"
+            },
+            {
+                "weapon": "bizon"
+            }
+        ],
+        "pistol": [
+            {
+                "weapon": "glock"
+            },
+            {
+                "weapon": "hkp2000"
+            },
+            {
+                "weapon": "elite"
+            },
+            {
+                "weapon": "p250"
+            },
+            {
+                "weapon": "tec9"
+            },
+            {
+                "weapon": "fiveseven"
+            },
+            {
+                "weapon": "deagle"
+            }
+        ],
+        "utility": [
+            {
+                "weapon": "knife",
+                "searchArray": [
+                    {
+                        "title": "Kills",
+                        "type": "Number",
+                        "search": {
+                            "one": "total_kills_knife"
+                        },
+                        "format": "comma"
+                    }
+                ]
+            },
+            {
+                "weapon": "taser",
+                "searchArray": [
+                    {
+                        "title": "Kills",
+                        "type": "Number",
+                        "search": {
+                            "one": "total_kills_taser"
+                        },
+                        "format": "comma"
+                    }
+                ]
+            },
+            {
+                "weapon": "molotov",
+                "searchArray": [
+                    {
+                        "title": "Kills",
+                        "type": "Number",
+                        "search": {
+                            "one": "total_kills_molotov"
+                        },
+                        "format": "comma"
+                    }
+                ]
+            },
+            {
+                "weapon": "hegrenade",
+                "searchArray": [
+                    {
+                        "title": "Kills",
+                        "type": "Number",
+                        "search": {
+                            "one": "total_kills_hegrenade"
+                        },
+                        "format": "comma"
+                    }
+                ]
+            }
+        ]
+    }
+}
